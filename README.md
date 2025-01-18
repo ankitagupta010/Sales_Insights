@@ -1,68 +1,88 @@
-Sales Insight Dashboard using Power BI
-Overview
-This project demonstrates the creation of a Sales Insight Dashboard for AtliQ Hardware, a company specializing in computer hardware and peripherals. The goal was to provide actionable insights to help the Sales Director make data-driven decisions and address declining sales trends.
+# Sales Insight Dashboard Using Power BI  
 
-The project was inspired by the Code Basics YouTube channel. You can explore the original playlist here.
+## About the Project  
+This project focuses on creating a **Sales Insight Dashboard** for **AtliQ Hardware**, a company that sells computer hardware and peripherals. The goal was to help the Sales Director make better decisions by turning complex data into easy-to-understand visuals.  
 
-Problem Statement
-AtliQ Hardware, with branches across India, faced challenges understanding its business performance. The Sales Director struggled with:
+I learned this project from the **Code Basics** YouTube channel. [Check out the playlist here](https://www.youtube.com/c/CodeBasics).  
 
-Declining sales trends.
-Inefficiencies in obtaining and analyzing sales data from regional managers.
-The difficulty stakeholders face when interpreting data directly from Excel files.
-Solution
-To resolve these challenges, a Power BI Dashboard was developed to:
+---
 
-Visualize sales data effectively.
-Enable data-driven decision-making.
-Identify key business trends, issues, and opportunities.
-AIMS Grid (Project Planning Framework)
-Purpose: Build a dashboard to simplify data analysis for the Sales Director.
-Stakeholders: Sales Director, Regional Managers, and Data Team.
-End Result: An interactive Power BI Dashboard offering clear insights.
-Success Criteria: Improved understanding of sales trends and actionable insights for decision-making.
-Project Workflow
-Planning: Leveraged the AIMS grid for structured project planning.
-Data Extraction: Retrieved data from MySQL database into Power BI.
-Data Cleaning: Processed data in Power Query to remove inconsistencies.
-ETL Process: Extracted, transformed, and loaded data for analysis.
-Currency Standardization: Unified all transactions to a single currency.
-Data Validation: Ensured the data's accuracy and consistency.
-Data Modeling: Established relationships between tables for analysis.
-Visualization: Created key metrics and visuals to highlight insights.
-Major Changes/Customizations
-Replaced the original Products table with a self-modified version, adding new products (Prod280 to Prod339) with random product types.
-Enhanced the Sales_Transaction table with calculated fields like profit margin and cost price for deeper analysis.
-Key Insights
-Revenue:
+## Problem Statement  
+AtliQ Hardware was struggling with:  
+- **Declining Sales**: Sales were dropping, and the reasons were unclear.  
+- **Data Complexity**: The Sales Director found it hard to get clear insights from Excel sheets.  
+- **Lack of Visuals**: Managers were sharing raw data instead of visuals, making it harder to interpret.  
 
-Total revenue (4 years): ₹985M.
-Revenue (2020): ₹142M (350K units sold, ₹2.1M profit).
-Profit Margins:
+---
 
-Overall profit margin: 2.5%.
-Delhi NCR contributed 52.8% of total revenue but only 2.3% profit margin.
-Bhubaneshwar had the highest profit margin (10.48% in 2020).
-Bengaluru had the lowest profit margin (-20.8%).
-Market Analysis:
+## Solution  
+The team decided to create a **Power BI Dashboard** to:  
+- Show sales performance clearly with visuals.  
+- Highlight key trends and problems.  
+- Make decision-making faster and easier.  
 
-Mumbai contributed 23.89% of the total profit.
-Bengaluru had the least profit contribution (-0.3%).
-Top Customers and Products:
+---
 
-Largest customer: Electricalsara Stores (₹413M revenue in 4 years).
-Best-selling product: Prod318 (₹69M revenue in 4 years).
-Trends:
+## Project Plan (AIMS Grid)  
+- **Purpose**: Simplify sales data and provide actionable insights.  
+- **Who Benefits**: Sales Director and Regional Managers.  
+- **Result**: An easy-to-use Power BI Dashboard.  
+- **How to Measure Success**: Clear understanding of sales trends and better decisions.  
 
-June 2020 showed a significant revenue drop compared to 2019.
-April 2020 had the lowest profit margin.
-Key Learnings
-Gained experience working with real-world business datasets.
-Mastered SQL queries for analysis.
-Learned to connect and manipulate data in Power BI using Power Query.
-Explored practical DAX functions for creating measures.
-Created insightful analytical visuals and reports.
-Final Deliverables
-Dashboard KPI Page: Highlights key performance indicators.
-Dashboard Performance Insights: Visualizes revenue and profit trends.
-Dashboard Profit Analysis: Deep dive into profit distribution by markets and products.
+---
+
+## Steps I Followed  
+1. **Planning**: Used the AIMS Grid method to organize the project.  
+2. **Data Retrieval**: Pulled sales data from MySQL into Power BI.  
+3. **Data Cleaning**: Fixed messy data using Power Query.  
+4. **ETL Process**: Extracted, transformed, and loaded data for analysis.  
+5. **Currency Fix**: Converted all transactions into the same currency.  
+6. **Data Validation**: Double-checked the data for accuracy.  
+7. **Visualization**: Built charts, graphs, and measures to display key insights.  
+
+---
+
+## Key Changes I Made  
+1. Fixed the **missing products issue** by creating a new product list and adding 60 products (Prod280 to Prod339).  
+2. Updated the **Sales Transactions** table by including profit margin, cost price, and other useful calculations.  
+
+---
+
+## Insights from the Dashboard  
+1. **Overall Performance**:  
+   - **Total Revenue (4 years)**: ₹985M.  
+   - **Total Profit Margin**: ₹24.7M (2.5%).  
+
+2. **Market Trends**:  
+   - **Delhi NCR**: Contributed 52.8% of revenue but had a low profit margin (2.3%).  
+   - **Bhubaneshwar**: Highest profit margin (10.48% in 2020).  
+   - **Bengaluru**: Lowest profit margin (-20.8%) and smallest profit contribution (-0.3%).  
+
+3. **Top Customers and Products**:  
+   - **Biggest Customer**: Electricalsara Stores (₹413M revenue).  
+   - **Best-Selling Product**: Prod318 (₹69M revenue).  
+
+4. **Revenue Trends**:  
+   - Revenue dropped sharply in **June 2020** compared to 2019.  
+   - Profit margin was lowest in **April 2020**.  
+
+---
+
+## What I Learned  
+- How to work with real business data.  
+- Writing SQL queries to analyze sales data.  
+- Cleaning and organizing data in Power BI.  
+- Creating DAX measures to calculate metrics.  
+- Building visuals that provide meaningful insights.  
+
+---
+
+## Final Outputs  
+1. **KPI Dashboard**: Displays key metrics like revenue, profit, and sales quantity.  
+2. **Performance Insights**: Shows revenue and profit trends over time.  
+3. **Profit Analysis**: Breaks down profits by market and product.  
+
+---
+
+This project gave me hands-on experience with real-world data and taught me how to present meaningful insights using Power BI.
+
